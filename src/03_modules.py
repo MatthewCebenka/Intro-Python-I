@@ -26,6 +26,6 @@ import os
 print(os.geteuid())
 # Print the current working directory (cwd):
 # YOUR CODE HERE
-
+print(os.getcwd())
 # Print out your machine's login name
 # YOUR CODE HERE
