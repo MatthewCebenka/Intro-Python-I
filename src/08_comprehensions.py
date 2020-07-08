@@ -12,6 +12,9 @@ for more info regarding list comprehensions.
 
 y = []
 
+for num in range(1, 6):
+    y.append(num)
+
 print (y)
 
 # Write a list comprehension to produce the cubes of the numbers 0-9:
