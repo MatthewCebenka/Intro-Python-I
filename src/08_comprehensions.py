@@ -22,6 +22,9 @@ print (y)
 
 y = []
 
+for num in range(0, 10):
+    y.append(num**3)
+
 print(y)
 
 # Write a list comprehension to produce the uppercase version of all the
