@@ -47,4 +47,12 @@ x = input("Enter comma-separated numbers: ").split(',')
 # What do you need between the square brackets to make it work?
 y = []
 
+# it should be something like the following 
+# need to come back to this problem
+
+for item in x:
+    num = int(item)
+    if (num.index() % 2 == 0):
+        y.append(num)
+
 print(y)
